@@ -7,3 +7,6 @@ $ ./a.out
 10 20 1 3 8 10  //std::vector is created, integers are not inserted in numerical order
 1 3 8 10 20     //std::set is created, integers are inserted in numerical order and no duplicated element(10 in this case)
 3 8 1 10 10 20  //std::unorderd_map is created, the keys are not sorted and duplicates are allowed
+
+2) File: auto.cpp
+Automatic type deduction with auto. The compiler automatically deduces the type from the initializer.
