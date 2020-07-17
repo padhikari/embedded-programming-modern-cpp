@@ -10,3 +10,7 @@ $ ./a.out
 
 2) File: auto.cpp
 Automatic type deduction with auto. The compiler automatically deduces the type from the initializer.
+
+3)scoped-enumation.cpp
+The enum class (also called a scoped enumeration), which makes enumerations both strongly typed and strongly scoped. To make an enum class, 
+we use the keyword class after the enum keyword
